@@ -14,17 +14,23 @@
     align-items: center;
     border-radius: 8%;
     width: 80%;
-    image-rendering: -webkit-optimize-contrast; /* Improve image sharpness */
-    image-rendering: crisp-edges;
+    image-rendering: auto;
+    shape-rendering: geometricPrecision;
 }
 
 .swiper-slide img {
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: contain; /* Changed from cover to contain to preserve aspect ratio */
-    image-rendering: -webkit-optimize-contrast;
-    image-rendering: crisp-edges;
+    object-fit: contain;
+}
+
+img[src$=".svg"] {
+    width: 100%;
+    height: auto;
+    shape-rendering: geometricPrecision;
+    text-rendering: optimizeLegibility;
+    image-rendering: optimizeQuality;
 }
 
 
