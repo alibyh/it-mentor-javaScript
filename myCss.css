@@ -25,13 +25,14 @@
     object-fit: contain;
 }
 
-img[src$=".svg"] {
+img[src$=".svg"]:not(.expand) {
     width: 100%;
     height: auto;
     shape-rendering: geometricPrecision;
     text-rendering: optimizeLegibility;
     image-rendering: optimizeQuality;
 }
+
 
 
 .swiper-pagination {
@@ -147,9 +148,8 @@ html {
     }
 
     .expand {
-        width: 24px;
+        width: 24px ! important;
         height: 24px;
-
     }
 
     label {
