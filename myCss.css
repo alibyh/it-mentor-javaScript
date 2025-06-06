@@ -1,0 +1,237 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 4%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8%;
+    width: 80%;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper-pagination {
+    position: relative;
+    top: 4px;
+}
+
+
+
+.swiper-horizontal>.swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    top: 4px;
+}
+
+
+html {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    background-color: #F5F5F5;
+}
+
+.content,
+.f_footer {
+    display: none;
+}
+
+#myH1 {
+    color: #7E7E82;
+    font-family: 'TT Lakes', sans-serif;
+    size: 16px;
+    font-weight: 400;
+    line-height: 44px;
+    position: relative;
+    left: 2%;
+    text-transform: uppercase;
+
+}
+
+@media (min-width: 768px) {
+    .content320 {
+        display: none;
+    }
+
+    .content {
+        width: 768px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        background-color: #F8F8F8;
+
+    }
+
+    .img1120 {
+        display: none;
+    }
+
+    .topLine {
+        width: 768px;
+        height: 1px;
+        background-color: #D9FFF5;
+    }
+
+
+
+    .f_body--images {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /* 3 columns */
+        gap: 10px;
+        /* space between images */
+    }
+
+    .f_body--images2 {
+        /*  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+        gap: 10px;
+        /* space between images */
+        display: none;
+    }
+
+    .f_header {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    }
+
+    .f_body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #F8F8F8;
+        gap: 10px;
+
+    }
+
+    .f_footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 133px;
+        height: 24px;
+        position: relative;
+        left: 1%;
+        cursor: pointer;
+        user-select: none;
+    }
+
+    .expand {
+        width: 24px;
+        height: 24px;
+
+    }
+
+    label {
+        font-size: 16px;
+        font-weight: 400;
+        font-family: 'TT Lakes', sans-serif;
+        line-height: 24px;
+        width: 101px;
+        cursor: pointer;
+        user-select: none;
+        color: #1B1C21;
+    }
+
+    .f_footer:hover,
+    .f_footer:focus {
+        background-color: #f0f0f0;
+        outline: none;
+    }
+
+    .img768 {
+        display: none;
+    }
+
+    .f_body--images2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr) ! important;
+        ;
+        /* 3 columns */
+        gap: 10px;
+        /* space between images */
+        display: none;
+    }
+}
+
+@media (min-width: 1120px) {
+    .content {
+        width: 1120px;
+    }
+
+    .content320 {
+        display: none;
+    }
+
+    #myH1 {
+
+        left: 6%;
+    }
+
+    .topLine {
+        width: 1120px;
+    }
+
+    .f_footer {
+
+        left: 5%;
+    }
+
+    .f_body--images {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        /* 3 columns */
+        gap: 10px;
+        /* space between images */
+    }
+
+    .f_body--images2 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr) ! important;
+        /* 3 columns */
+        gap: 10px;
+        /* space between images */
+        display: none;
+    }
+
+    .img1120 {
+        display: block;
+    }
+}
+
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('./fonts/TTLakesCondensed-Regular.woff2') format('woff2'),
+        url('./fonts/TTLakesCondensed-Regular.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('./fonts/TTLakes-Bold.woff') format('woff'),
+        url('./fonts/TTLakesCondensed-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: bold;
+}
