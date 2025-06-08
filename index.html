@@ -65,13 +65,9 @@
     <!-- Initialize Swiper -->
     <script>
         var swiper = new Swiper(".mySwiper", {
-            slidesPerView: "",
+            slidesPerView: "auto",
+             a11y:{clicked: true},
             spaceBetween: 14,
-            allowSlidePrev: false,
-            autoplay: {
-                delay: 2000,
-                disableOnInteraction: false,
-            },
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
