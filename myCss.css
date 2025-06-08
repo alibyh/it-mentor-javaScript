@@ -39,7 +39,9 @@ img[src$=".svg"]:not(.expand) {
     position: relative;
     top: 4px;
 }
-
+.swiper-pagination-bullet{
+    background-color: #B5B6BC;
+}
 
 
 .swiper-horizontal>.swiper-pagination-bullets,
@@ -61,17 +63,24 @@ html {
 .f_footer {
     display: none;
 }
-
+.content320{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 30px;
+}
 #myH1 {
     color: #7E7E82;
     font-family: 'TT Lakes', sans-serif;
     size: 16px;
     font-weight: 400;
-    line-height: 44px;
+    line-height: 48px;
+    letter-spacing: -0.2px;
     position: relative;
     left: 2%;
     text-transform: uppercase;
-
+    margin: 0;
 }
 
 @media (min-width: 768px) {
