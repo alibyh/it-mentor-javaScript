@@ -1,12 +1,12 @@
 body {
     margin-top: 20px;
+    width: 100%;
 }
 
 .swiper {
     width: 96%;
     height: 100%;
     position: relative;
-    max-width: 320px;
     left: 3%;
     margin: 0;
     display: flex;
@@ -20,8 +20,8 @@ body {
     content: "";
     position: absolute;
     top: 0;
-    right: -2.5%;
-    width: 50px;
+    right: 0;
+    width: 45px;
     /* Adjust as needed */
     height: 100%;
     pointer-events: none;
@@ -81,6 +81,7 @@ img[src$=".svg"]:not(.expand) {
     shape-rendering: geometricPrecision;
     text-rendering: optimizeLegibility;
     image-rendering: optimizeQuality;
+    background-color: #F8F8F8;
 }
 
 
@@ -293,7 +294,7 @@ html {
 
     .f_footer {
 
-        left: 5%;
+        left: 3%;
     }
 
     .f_body {
