@@ -1,5 +1,9 @@
 body {
+<<<<<<< HEAD
     margin-top: 20px;
+=======
+    margin: 9px;
+>>>>>>> parent of 648e69d (Revert "katya correction 7")
     width: 100%;
 }
 
@@ -63,7 +67,7 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 8%;
-    width: 80%;
+    width: 240px;
     image-rendering: auto;
     shape-rendering: geometricPrecision;
 }
@@ -76,7 +80,7 @@ body {
 }
 
 img[src$=".svg"]:not(.expand) {
-    width: 100%;
+    width: 240px;
     height: auto;
     shape-rendering: geometricPrecision;
     text-rendering: optimizeLegibility;
@@ -122,11 +126,16 @@ html {
     justify-content: start;
     gap: 26px;
     background-color: #F8F8F8;
+<<<<<<< HEAD
     min-height: 324px;
+=======
+    min-height: 244px;
+    width: 100%;
+>>>>>>> parent of 648e69d (Revert "katya correction 7")
 }
 
 .f_header320 {
-    height: 88px;
+    height: 80px;
     border-top: 1px solid #D9FFF5;
     display: flex;
     justify-content: start;
@@ -134,6 +143,9 @@ html {
     background: linear-gradient(90deg, #F8F8F8 0%, #FFFFFF 98.61%);
 
 
+}
+.swiper-wrapper{
+    width: 400px;
 }
 
 #myH1_320 {
@@ -148,7 +160,7 @@ html {
     font-family: 'TT Lakes', sans-serif;
     position: relative;
     margin: 0;
-    width: 258px;
+    width: 60%;
     height: 48px;
     left: 10px;
 }
