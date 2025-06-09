@@ -1,6 +1,6 @@
 body {
     margin-top: 20px;
-    width: 320px;
+    width: 100%;
 }
 
 .swiper {
@@ -42,7 +42,7 @@ body {
 
 .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
 .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
-    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 8.5px);
+    margin: 0 var(--swiper-pagination-bullet-horizontal-gap, 12px);
 }
 
 .swiper-horizontal>.swiper-pagination-bullets,
@@ -121,7 +121,7 @@ html {
     justify-content: start;
     gap: 26px;
     background-color: #F8F8F8;
-    min-height: 244px;
+    min-height: 324px;
 }
 
 .f_header320 {
