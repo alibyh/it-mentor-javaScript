@@ -1,9 +1,5 @@
 body {
-<<<<<<< HEAD
-    margin-top: 20px;
-=======
     margin: 9px;
->>>>>>> parent of 648e69d (Revert "katya correction 7")
     width: 100%;
 }
 
@@ -55,7 +51,6 @@ body {
 .swiper-pagination-fraction {
     bottom: var(--swiper-pagination-bottom, 8px);
     top: var(--swiper-pagination-top, auto);
-    left: -4%;
     width: 100%;
 }
 
@@ -126,12 +121,8 @@ html {
     justify-content: start;
     gap: 26px;
     background-color: #F8F8F8;
-<<<<<<< HEAD
-    min-height: 324px;
-=======
     min-height: 244px;
     width: 100%;
->>>>>>> parent of 648e69d (Revert "katya correction 7")
 }
 
 .f_header320 {
@@ -156,6 +147,7 @@ html {
     letter-spacing: -0.2px;
     text-transform: uppercase;
 
+
     color: #7E7E82;
     font-family: 'TT Lakes', sans-serif;
     position: relative;
@@ -169,13 +161,9 @@ html {
     .content320 {
         display: none;
     }
-    body{
-        display: flex;
-        justify-content: center;
-    }
 
     .content {
-        width: 95%;
+        width: 768px;
         height: 500px;
         display: flex;
         flex-direction: column;
@@ -207,7 +195,6 @@ html {
         left: 3%;
         text-transform: uppercase;
         margin: 0;
-        /* min-width: none; */
     }
 
 
@@ -215,9 +202,8 @@ html {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         /* 3 columns */
-        row-gap: 16px;     /* space between rows */
-        column-gap: 24px;
-        width: 90%;
+        gap: 24px;
+        /* space between images */
     }
 
     .f_body--images2 {
@@ -225,11 +211,9 @@ html {
         grid-template-columns: repeat(3, 1fr) ! important;
         ;
         /* 3 columns */
-        row-gap: 16px;     /* space between rows */
-        column-gap: 24px;
+        gap: 24px;
         /* space between images */
         display: none;
-        width: 90%;
     }
 
     .f_header {
@@ -247,7 +231,7 @@ html {
         align-items: center;
         flex-direction: column;
         background-color: #F8F8F8;
-        gap: 16px;
+        gap: 10px;
 
     }
 
@@ -295,7 +279,7 @@ html {
 
 @media (min-width: 1120px) {
     .content {
-        width: 100%;
+        width: 1120px;
     }
 
     .content320 {
@@ -322,8 +306,7 @@ html {
         align-items: center;
         flex-direction: column;
         background-color: #F8F8F8;
-        gap: 16px;
-        width: 100%;
+        gap: 32px;
 
     }
 
@@ -331,21 +314,17 @@ html {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         /* 3 columns */
-        row-gap: 16px;     /* space between rows */
-        column-gap: 32px;
+        gap: 32px;
         /* space between images */
-        width: 92%;
     }
 
     .f_body--images2 {
         display: grid;
         grid-template-columns: repeat(4, 1fr) ! important;
         /* 3 columns */
-        row-gap: 16px;     /* space between rows */
-        column-gap: 32px;
+        gap: 32px;
         /* space between images */
         display: none;
-        width: 92%;
     }
 
     .img1120 {
